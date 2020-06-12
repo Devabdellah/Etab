@@ -1,0 +1,14 @@
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card {
+    background-color: #fff0;
+    box-shadow: 0 2px 4px rgba(126, 142, 177, 0);
+} 
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card:hover {
+    box-shadow: 0 5px 12px rgba(126, 142, 177, 0);
+}
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card .card-body .row .col-md-12.p-t-15 svg:hover {
+    cursor: pointer;
+}
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card .card-body .row:nth-child(2) .col-md-12 span {
+    cursor: pointer;
+    font-weight: 700!important;
+}
