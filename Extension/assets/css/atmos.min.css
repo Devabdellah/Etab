@@ -14857,7 +14857,7 @@ a:hover
 {
     .admin-sidebar
     {
-        transform: translateX(-170px);
+        transform: translateX(-230px);
     }
     body.sidebar-pinned .admin-sidebar
     {
