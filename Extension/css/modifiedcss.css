@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'Sansman';
+    src: url(../assets/fonts/enter-sansman/entsani.ttf);
+  }
 body {
     font-family: 'Sansman' !important;
 }
-
+.font-secondary{
+    font-family: 'Sansman' !important;
+}
 .admin-content .container-fluid .row .col-lg-2.m-b-30 .card {
     background-color: #fff0;
     box-shadow: 0 2px 4px rgba(126, 142, 177, 0);
@@ -31,10 +37,10 @@ body {
     color: white !important;
 }
 .menu .menu-name {
-    font-size: 1.2rem !important;
+    font-size: 0.8rem !important;
 }
 .sub-menu .menu-name {
-    font-size: 1rem !important;
+    font-size: 0.6rem !important;
 }
 
 h1,

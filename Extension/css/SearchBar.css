@@ -1,0 +1,28 @@
+
+.SearchBar input[type=text]{
+    position: relative;
+    padding: 15px 40px 15px 20px;
+    width: 20px;
+    color: #525252;
+    text-transform: uppercase;
+
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    transition: width 0.4s ease;
+    outline: none;
+    
+   
+  }
+  .SearchBar input[type=text]:focus{ 
+      width: 300px;
+    background: white; 
+}
+  
+  .SearchBar i{
+    position: relative;
+    left: -37px;
+  }
+  
