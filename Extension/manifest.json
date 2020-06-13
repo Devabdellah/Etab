@@ -1,0 +1,28 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "38": "icons/icon.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Tab-E"
+   },
+   "options_page": "dashboard.html",
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Cloud-based tab manager for power users to enhance productivity by staying organized. ",
+   "icons": {
+      "128": "icons/icon.png"
+   },
+   "manifest_version": 2,
+   "name": "Tab-E",
+   "permissions": [
+      "cookies",
+      "storage",
+      "unlimitedStorage",
+      "http://*/*",
+      "https://*/*"
+   ],
+   "version": "0.0.1",
+   "web_accessible_resources": [
+      "images/*"
+   ]
+}

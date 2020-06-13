@@ -1,0 +1,46 @@
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card {
+    background-color: #fff0;
+    box-shadow: 0 2px 4px rgba(126, 142, 177, 0);
+} 
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card:hover {
+    box-shadow: 0 5px 12px rgba(126, 142, 177, 0);
+}
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card .card-body .row .col-md-12.p-t-15 svg:hover {
+    cursor: pointer;
+}
+.admin-content .container-fluid .row .col-lg-2.m-b-30 .card .card-body .row:nth-child(2) .col-md-12 span {
+    cursor: pointer;
+    font-weight: 700!important;
+}
+.LightMod .ColorMod1{
+    background-color: #95C8D8 !important;
+}
+.LightMod .ColorMod2{
+    background-color: #4682b4 !important;
+}
+.LightMod .ColorMod3{
+    background-color: #0e4c92 !important;
+}
+.DarkMod .ColorMod{
+    background-color: #131E3A !important;
+}
+
+
+.admin-header.lightMod{
+    background-color: #95C8D8;
+}
+.admin-header.darkMod{
+    background-color: #131E3A;
+}
+.admin-sidebar.lightMod{
+    background-color: #4682b4;
+}
+.admin-sidebar.darkMod{
+    background-color: #131E3A;
+}
+.menu-item.active.lightMod{
+    background-color: #95C8D8
+}
+.menu-item.active.darkMod{
+    background-color: #0e4c92;
+}
