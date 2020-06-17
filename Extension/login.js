@@ -3,6 +3,8 @@ const usernameinp = document.querySelector("#username")
 const passwordinp = document.querySelector("#password")
 const skipbtn = document.querySelector("#doSkip")
 const logoimg = document.querySelector("#logoimg")
+const googlebtn = document.querySelector("#googlelogin")
+const outlookbtn = document.querySelector("#outlooklogin")
 
 function makeid(length) {
     var result = '';
@@ -27,6 +29,14 @@ loginbtn.addEventListener("click", (e) => {
 skipbtn.addEventListener("click", (e) => {
     e.preventDefault()
     window.location.href = "popup.html"
+})
+googlebtn.addEventListener("click", (e) => {
+    e.preventDefault()
+    alert("Coming Soon")
+})
+outlookbtn.addEventListener("click", (e) => {
+    e.preventDefault()
+    alert("Coming Soon")
 })
 logoimg.addEventListener("click", (e) => {
     e.preventDefault()

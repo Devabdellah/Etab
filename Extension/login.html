@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="assets/fonts/materialdesignicons/materialdesignicons.min.css">
     <!--Bootstrap + atmos Admin CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/atmos.min.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" type="text/css" href="css/modifiedcss.css">
 
     <!-- Additional library for page -->
 </head>
@@ -48,7 +48,7 @@
                                                     </div>
                                                 </div>
                                                 <h3 class="text-center">Login </h3>
-                                                <p class="text-center opacity-75">Please Login to continue </p>
+                                                <p class="text-center opacity-75">Please Login to continue, or sign up <a href="javascript:void(0)">Here</a></p>
                                                 <form action="modal.html">
                                                     <div class="form-group">
 
@@ -71,12 +71,12 @@
 
                                                     </div>
                                                     <div class="form-group">
-                                                        <button id="doLogin" data-dismiss="modal" class="btn text-uppercase btn-block  btn-primary">
+                                                        <button id="doLogin" data-dismiss="modal" class="btn text-uppercase btn-block  btn-primary brandcolor1">
                                                             Login
                                                         </button>
                                                     </div>
                                                     <div class="form-group">
-                                                        <button id="doSkip" data-dismiss="modal" class="btn text-uppercase btn-block  btn-secondary">
+                                                        <button id="doSkip" data-dismiss="modal" class="btn text-uppercase btn-block  btn-secondary ">
                                                             skip
                                                         </button>
                                                         <a id="gopopup" href="popup.html"></a>
@@ -92,12 +92,12 @@
                                         <div class="modal-body">
                                             <div class="">
                                                 <div class="form-group">
-                                                    <button data-dismiss="modal" style="border: none;" class="btn text-uppercase btn-block btn-primary googleColor">
+                                                    <button id="googlelogin" data-dismiss="modal" style="border: none;" class="btn text-uppercase btn-block btn-primary googleColor">
                                                         Google
                                                     </button>
                                                 </div>
                                                 <div class="form-group">
-                                                    <button data-dismiss="modal" style="border: none;" class="btn text-uppercase btn-block btn-primary outlookColor">
+                                                    <button id="outlooklogin" data-dismiss="modal" style="border: none;" class="btn text-uppercase btn-block btn-primary outlookColor">
                                                         Outlook
                                                     </button>
                                                 </div>
