@@ -13,16 +13,19 @@ function makeid(length) {
     return result;
 }
 
-loginbtn.addEventListener("click", ()=>{
-    chrome.storage.local.set({
-        [usernameinp.value]: makeid(10)
-    })
+loginbtn.addEventListener("click", (e) => {
+    e.preventDefault()
+    if (usernameinp.value == 'test@test.com' && passwordinp.value == "test") {
+        chrome.storage.local.set({
+            [usernameinp.value]: makeid(10)
+        }, function name() {
+            window.location.href = "popup.html"
+        })
+    }
 })
-skipbtn.addEventListener("click", ()=>{
-    // var a = document.createElement("a")
-    // a.href = chrome.runtime.getURL("popup.html")
-    // a.href = "popup.html"
-    document.querySelector("#gopopup").click()
+skipbtn.addEventListener("click", (e) => {
+    e.preventDefault()
+    window.location.href = "popup.html"
 })
 
 
