@@ -19,10 +19,7 @@ loginbtn.addEventListener("click", ()=>{
     })
 })
 skipbtn.addEventListener("click", ()=>{
-    // var a = document.createElement("a")
-    // a.href = chrome.runtime.getURL("popup.html")
-    // a.href = "popup.html"
-    document.querySelector("#gopopup").click()
+    window.location.href="popup.html"
 })
 
 
