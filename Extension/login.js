@@ -2,6 +2,7 @@ const loginbtn = document.querySelector("#doLogin")
 const usernameinp = document.querySelector("#username")
 const passwordinp = document.querySelector("#password")
 const skipbtn = document.querySelector("#doSkip")
+const logoimg = document.querySelector("#logoimg")
 
 function makeid(length) {
     var result = '';
@@ -26,6 +27,10 @@ loginbtn.addEventListener("click", (e) => {
 skipbtn.addEventListener("click", (e) => {
     e.preventDefault()
     window.location.href = "popup.html"
+})
+logoimg.addEventListener("click", (e) => {
+    e.preventDefault()
+    chrome.tabs.create({ url: "https://www.google.com" })
 })
 
 
