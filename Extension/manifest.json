@@ -3,7 +3,7 @@
       "default_icon": {
          "38": "icons/icon.png"
       },
-      "default_popup": "popup.html",
+      "default_popup": "login.html",
       "default_title": "Tab-E"
    },
    "options_page": "dashboard.html",
@@ -23,6 +23,6 @@
    ],
    "version": "0.0.1",
    "web_accessible_resources": [
-      "images/*"
+      "*"
    ]
 }
