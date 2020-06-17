@@ -3,13 +3,124 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Atmos Admin Panel- Bootstrap 4 Based Admin Panel</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <link rel="icon" href="assets/img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="assets/vendor/pace/pace.css">
+    <script src="assets/vendor/pace/pace.min.js"></script>
+    <!--vendors-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="assets/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="assets/vendor/timepicker/bootstrap-timepicker.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/jost/jost.css">
+    <!--Material Icons-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/materialdesignicons/materialdesignicons.min.css">
+    <!--Bootstrap + atmos Admin CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/atmos.min.css">
+    <!-- Additional library for page -->
 </head>
 
-<body>
+<body style="width: 500px;" class="sidebar-pinned">
+    <main class="admin-main">
+        <section class="admin-content">
+            <div class="container pull-up">
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <div class="card m-b-30 m-t-80">
+                            <div class="card-body">
+                                <div class="m-b-10">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <div class="text-center p-b-20 pull-up-sm">
+                                                    <div class="avatar avatar-lg">
+                                                        <img src="icons/logo.png" alt="..." class="avatar-img rounded-circle">
+                                                    </div>
+                                                </div>
+                                                <h3 class="text-center">Login </h3>
+                                                <p class="text-center opacity-75">Please Login to continue </p>
+                                                <form action="modal.html">
+                                                    <div class="form-group">
 
-    <script src="popup.js"></script>
+                                                        <div class="input-group input-group-flush mb-3">
+                                                            <input type="text" class="form-control form-control-prepended" placeholder="username">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text">
+                                                                    <span class=" mdi mdi-account "></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="input-group input-group-flush mb-3">
+                                                            <input type="password" class="form-control form-control-prepended">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text">
+                                                                    <span class=" mdi mdi-key "></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button data-dismiss="modal" class="btn text-uppercase btn-block  btn-primary">
+                                                            Login
+                                                        </button>
+                                                    </div>
+                                                </form>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-content" style="border: 0px solid rgba(0, 0, 0, .2);">
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <div class="form-group">
+                                                    <button data-dismiss="modal" style="background-color: #e92c15 !important;" class="btn text-uppercase btn-block  btn-primary">
+                                                        Google
+                                                    </button>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button data-dismiss="modal" style="background-color: #006ec0 !important;" class="btn text-uppercase btn-block  btn-primary">
+                                                        Outlook
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/vendor/popper/popper.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/select2/js/select2.full.min.js"></script>
+    <script src="assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="assets/vendor/listjs/listjs.min.js"></script>
+    <script src="assets/vendor/moment/moment.min.js"></script>
+    <script src="assets/vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/atmos.min.js"></script>
+    <!--page specific scripts for demo-->
+
+    <script src="assets/js/modal-data.js"></script>
 </body>
 
 </html>
