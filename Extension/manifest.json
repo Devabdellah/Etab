@@ -6,7 +6,6 @@
       "default_popup": "login.html",
       "default_title": "Tab-E"
    },
-   "options_page": "dashboard.html",
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
    "description": "Cloud-based tab manager for power users to enhance productivity by staying organized. ",
    "icons": {

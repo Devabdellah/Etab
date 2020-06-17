@@ -16,7 +16,7 @@ Browse_e_Zonesbtn.addEventListener("click", (e) => {
 })
 Tab_e_Homebtn.addEventListener("click", (e) => {
     e.preventDefault()
-    alert("Coming Soon")
+    chrome.tabs.create({ url: "dashboard.html" })
 })
 darkModbtn.addEventListener("click", (e) => {
     e.preventDefault()
