@@ -42,11 +42,27 @@
                   <div class="modal-content" style="border-radius: .3rem .3rem 0rem 0rem;border-bottom: 0px;">
                     <div class="modal-body">
                       <div class="">
-                        <div class="text-center p-b-20 pull-up-sm">
+                        <div style="position: relative">
+                          <label class="cstm-switch">
+                            <input type="checkbox" id="option-dismiss" checked="" name="option" value="1"
+                              class="cstm-switch-input">
+                            <span class="cstm-switch-indicator "></span>
+                            <span class="cstm-switch-description">Auto Backup</span>
+                          </label>
+                          <span class=" mdi mdi-theme-light-dark"
+                          style="position: absolute;right: 80px;font-size: 3rem;top: -1.9rem;cursor: pointer;top: -27px;color: #687ae8;"></span>
+
+                          <span class=" mdi mdi-account-group"
+                            style="position: absolute;right: 0;font-size: 3rem;top: -1.9rem;cursor: pointer;color: #687ae8;"></span>
+
+                        </div>
+                        <div class="text-center p-b-45 pull-up-sm" style="margin-top: -75px;">
+
                           <div class="avatar avatar-lg">
-                              <img id="logoimg" src="icons/logo.png" alt="..." class="avatar-img rounded-circle" style="box-shadow: none;cursor: pointer;">
+                            <img id="logoimg" src="icons/logo.png" alt="..." class="avatar-img rounded-circle"
+                              style="box-shadow: none;cursor: pointer;">
                           </div>
-                      </div>
+                        </div>
 
                         <p class="text-center opacity-75">Save e-Zone</p>
                         <form action="modal.html">
@@ -76,10 +92,12 @@
 
                   </div>
                   <div class="modal-content" style="border-top: 0px;">
-                    <button style="border-radius: 0px 0px 0px 0px;" id="doLogin" data-dismiss="modal" class="btn btn-secondary">
+                    <button style="border-radius: 0px 0px 0px 0px;" id="doLogin" data-dismiss="modal"
+                      class="btn btn-secondary">
                       Browse e-Zones
                     </button>
-                    <button style="border-radius: 0px 0px 0.25rem 0.25rem;" id="doLogin" data-dismiss="modal" class="btn btn-secondary">
+                    <button style="border-radius: 0px 0px 0.25rem 0.25rem;" id="doLogin" data-dismiss="modal"
+                      class="btn btn-secondary">
                       Tab-e Home
                     </button>
 
